@@ -1,0 +1,3 @@
+../Core/Src/servo.c:10:6:servoInit	24	static
+../Core/Src/servo.c:19:5:btnPressed	16	static
+../Core/Src/servo.c:31:6:turnServo	16	static
