@@ -58,6 +58,12 @@
         <mxCell id="X2XiIL5ZbUA2EVZVHNgU-28" value="HC05 (Bluetooth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="460" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="X2XiIL5ZbUA2EVZVHNgU-29" value="Ruban + 2xLED neopixel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X2XiIL5ZbUA2EVZVHNgU-30" value="Module MP3 UART" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
