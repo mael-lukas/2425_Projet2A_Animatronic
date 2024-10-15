@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.05,
+        "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.1,
+        "fab_line_width": 0.09999999999999999,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [],
@@ -109,19 +109,19 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
@@ -601,35 +601,11 @@
   "sheets": [
     [
       "72512375-e259-4361-868e-851dab973787",
-      "Root"
-    ],
-    [
-      "f6a4e75b-fb8d-4d32-87fe-378f56ca45d5",
-      "button_6"
-    ],
-    [
-      "df41b171-4e3b-400e-a458-07ea9115ea4f",
-      "button_4"
-    ],
-    [
-      "64edbdfd-467e-4a4e-a247-1e95791a6998",
-      "button_2"
-    ],
-    [
-      "fd5e9b67-6936-4b93-86db-4b4a2ca6e8f3",
-      "button_5"
-    ],
-    [
-      "9aca3e55-61e3-4023-b005-2935873a1562",
-      "button_3"
-    ],
-    [
-      "07ae61b7-1272-4575-9811-dc3de9281197",
-      "button_1"
+      "Racine"
     ],
     [
       "fab966d2-46a8-4692-a1ae-d91f2e4b8d20",
-      "button_7"
+      "button_1"
     ]
   ],
   "text_variables": {}
