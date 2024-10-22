@@ -6264,6 +6264,10 @@
 		(uuid "a5390006-4027-4ac5-b8de-65e13ebcbb22")
 	)
 	(no_connect
+		(at 146.05 123.19)
+		(uuid "a6617dc9-8db1-4b87-a268-af039e7d9618")
+	)
+	(no_connect
 		(at 220.98 41.91)
 		(uuid "b2a85511-c004-4c03-8e61-af28b9b389f2")
 	)
@@ -6278,10 +6282,6 @@
 	(no_connect
 		(at 146.05 128.27)
 		(uuid "db9354cd-faa3-459a-8330-a86008d5ee5d")
-	)
-	(no_connect
-		(at 146.05 125.73)
-		(uuid "e858431d-74b6-48d9-86cc-f83d0426ae55")
 	)
 	(no_connect
 		(at 146.05 173.99)
@@ -6575,16 +6575,6 @@
 		)
 		(uuid "26743771-091a-4387-be65-0d36d39d6ee1")
 	)
-	(wire
-		(pts
-			(xy 146.05 123.19) (xy 148.59 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ba5998-7ffc-426a-9973-035d87c6a9e6")
-	)
 	(polyline
 		(pts
 			(xy 177.8 163.83) (xy 240.03 163.83)
@@ -6874,6 +6864,16 @@
 			(type default)
 		)
 		(uuid "5cc63c57-f75a-4337-8f54-3f49ee84ca80")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d50ae02-b87b-4729-bd87-2d729f36821f")
 	)
 	(wire
 		(pts
@@ -8722,7 +8722,7 @@
 			)
 		)
 	)
-	(global_label "PWM_TIM2_CH4"
+	(global_label "PWM_TIM4_CH1"
 		(shape input)
 		(at 124.46 52.07 180)
 		(fields_autoplaced yes)
@@ -8898,9 +8898,9 @@
 			)
 		)
 	)
-	(global_label "PWM_TIM2_CH4"
+	(global_label "PWM_TIM4_CH1"
 		(shape input)
-		(at 148.59 123.19 0)
+		(at 148.59 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8910,7 +8910,7 @@
 		)
 		(uuid "d82fb6be-fb9a-4d5b-8d4a-8cf5eb3ca5f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.7265 123.19 0)
+			(at 165.7265 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10110,7 @@
 			(uuid "0d86a1cb-9805-4ee3-990c-25c8e191107d")
 		)
 		(instances
-			(project ""
+			(project "ProjetCorps"
 				(path "/72512375-e259-4361-868e-851dab973787"
 					(reference "#PWR09")
 					(unit 1)
