@@ -1,9 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "New_Library")(type "KiCad")(uri "/Users/fernandesvincent/Downloads/LIB_5988G10313F/5988G10313F/New_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "New_Library_0")(type "KiCad")(uri "/Users/fernandesvincent/Downloads/LIB_5988G10313F/5988G10313F/KiCad/New_Library_0.kicad_sym")(options "")(descr ""))
-  (lib (name "5988G10313F")(type "KiCad")(uri "/Users/fernandesvincent/Downloads/LIB_5988G10313F/5988G10313F/KiCad/5988G10313F.kicad_sym")(options "")(descr ""))
-  (lib (name "618015231321")(type "KiCad")(uri "/Users/fernandesvincent/Downloads/LIB_618015231321/618015231321/KiCad/618015231321.kicad_sym")(options "")(descr ""))
-  (lib (name "kicad-unified-universal-8.0.0")(type "KiCad")(uri "/Users/fernandesvincent/Downloads/2324_Projet1AB_Animatronic-main/Hardware/PCB/Library.pretty/kicad-unified-universal-8.0.0.kicad_sym")(options "")(descr ""))
-  (lib (name "buck")(type "KiCad")(uri "${KIPRJMOD}/buck.kicad_sym")(options "")(descr ""))
-)
