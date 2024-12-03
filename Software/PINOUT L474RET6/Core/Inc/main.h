@@ -65,18 +65,24 @@ void Error_Handler(void);
 #define USART2_RX_GPIO_Port GPIOA
 #define USART1_TX_Pin GPIO_PIN_4
 #define USART1_TX_GPIO_Port GPIOC
+#define BTN_1_Pin GPIO_PIN_1
+#define BTN_1_GPIO_Port GPIOB
 #define USART3_TX_Pin GPIO_PIN_10
 #define USART3_TX_GPIO_Port GPIOB
 #define USART3_RX_Pin GPIO_PIN_11
 #define USART3_RX_GPIO_Port GPIOB
-#define I2C1_SCL_Pin GPIO_PIN_13
-#define I2C1_SCL_GPIO_Port GPIOA
-#define I2C1_SDA_Pin GPIO_PIN_14
-#define I2C1_SDA_GPIO_Port GPIOA
+#define INT_Pin GPIO_PIN_7
+#define INT_GPIO_Port GPIOC
 #define UART4_TX_Pin GPIO_PIN_10
 #define UART4_TX_GPIO_Port GPIOC
 #define UART4_RX_Pin GPIO_PIN_11
 #define UART4_RX_GPIO_Port GPIOC
+#define LED1_Pin GPIO_PIN_4
+#define LED1_GPIO_Port GPIOB
+#define LED2_Pin GPIO_PIN_5
+#define LED2_GPIO_Port GPIOB
+#define LED3_Pin GPIO_PIN_6
+#define LED3_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
