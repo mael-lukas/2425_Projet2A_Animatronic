@@ -10,8 +10,8 @@ Dans le cadre d'un projet de 1ère année à l'école d'ingénieur ENSEA supervi
 
 <table>
   <tr>
-    <td><img src="Gestion de projet/architecture_code.png" alt="Diagramme d'architecture du code" width="500" height="700"></td>
-    <td><img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="700"></td>
+    <td><img src="Gestion de projet/architecture_code.png" alt="Diagramme d'architecture du code" width="500" height="400"></td>
+    <td><img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400"></td>
   </tr>
 </table>
 
