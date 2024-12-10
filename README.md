@@ -37,3 +37,7 @@ Membres de l'équipe :
 * #### Supervisé par Nicolas Papazoglou
     * [Github](https://github.com/DBXYD?tab=overview&from=2024-05-01&to=2024-05-29)
     * [Linkedin](https://www.linkedin.com/in/nicolas-papazoglou-38382646/?originalSubdomain=fr)
+ 
+* #### Supervisé par Laurent Fiack
+    * [Github](https://github.com/lfiack)
+    * [Linkedin](https://fr.linkedin.com/in/laurent-fiack-1b1415124)
