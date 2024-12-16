@@ -139,10 +139,10 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
    Au cours de cette dernière séance, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) ont pu finalisé leurs codes et s'assuerer qu'ils fonctionnaient comme ils l'avaient prévus.
    Pendant ce temps, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont terminé de modéliser les pièces comprises dans l'articulation de l'aile de l'aigle et ont pu commencéà les imprimer en 3D.
 
-    <table>
+<table>
   <tr>
-    <td><img src="Hardware/Mécanique/liaison moteurs.png" alt="liaison moteurs" width="300" height="150"></td>
-    <td><img src="Hardware/Mécanique/radius.png" alt="radius" width="300" height="150"></td>
+    <td><img src="Hardware/Mécanique/liaison moteurs.png" alt="liaison moteurs" width="300" height="200"></td>
+    <td><img src="Hardware/Mécanique/radius.png" alt="radius" width="300" height="200"></td>
   </tr>
 </table>
 
