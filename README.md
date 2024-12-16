@@ -127,9 +127,9 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
     <table>
   <tr>
-    <td><img src="Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="150"></td>
-    <td><img src="Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="150"></td>
-    <td><img src="Hardware/Mécanique/liaison coude.png" alt="liaison coude" width="300" height="150"></td>
+    <td><img src="Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="200"></td>
+    <td><img src="Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="200"></td>
+    <td><img src="Hardware/Mécanique/liaison coude.png" alt="liaison coude" width="300" height="200"></td>
   </tr>
 </table>
 
