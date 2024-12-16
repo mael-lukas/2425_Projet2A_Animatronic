@@ -94,10 +94,9 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
    
    Pendant ce temps [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) a imprimé une première liaison moteur-squelette et l'a testée par la suite. [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) a continué le code du ruban néopixel, en effectuant des premiers tests.
 
-   <table>
+<table>
   <tr>
     <td><img src="Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="300" height="200"></td>
-  </tr>
 </table>
 
    
@@ -125,7 +124,7 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
    Ensuite, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) ont pu continué de tester leur code et le modifier en fonction des problèmes qu'ils rencontraient. 
    Pendant ce temps, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont continué de modéliser les pièces comprises dans l'articulation de l'aile de l'aigle.
 
-    <table>
+<table>
   <tr>
     <td><img src="Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="200"></td>
     <td><img src="Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="200"></td>
