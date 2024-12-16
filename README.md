@@ -94,6 +94,12 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
    
    Pendant ce temps [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) a imprimé une première liaison moteur-squelette et l'a testée par la suite. [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) a continué le code du ruban néopixel, en effectuant des premiers tests.
 
+   <table>
+  <tr>
+    <td><img src="Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="500" height="400"></td>
+  </tr>
+</table>
+
    
 ## Séance 8
    Au cours de cette séance, 
