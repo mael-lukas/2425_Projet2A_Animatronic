@@ -102,8 +102,8 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
    
 ## Séance 8
-   Au cours de cette séance, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) a continué le code permettant de faire fonctionner le TOF et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) l'a aidé.
-   D'un autre côté, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont réfléchi à un mécanisme permettant d'effectuer les mouvements de l'aigle d'un aigle.
+   Au cours de cette séance, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) a continué le code permettant de faire fonctionner le TOF et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) l'a aidé. Ils ont pu commencéà tester le code.
+   D'un autre côté, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont réfléchi à un mécanisme permettant d'effectuer les mouvements de l'aigle d'un aigle et elles sont arrivées au schéma ci-dessous.
 
  <table>
   <tr>
@@ -114,19 +114,39 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
    
 ## Séance 9
-  Durant cette séance nous avons réalisé une première présentation orale du projet DEA. De plus, nous avons eu les impression 3D des nouvelles et dernières versions du cache de l'alimentation ainsi que de la tête de l'aigle, toutes deux présentées ci-dessous:
+  Durant cette séance, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont modélisé chaque pièce permettant de concevoir l'articulation de l'aile de l'aigle. 
+  Pendant ce temps, [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) et [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) ont pu faire fonctionner le TOF.
 
-<table>
-  <tr>
-    <td><img src="Etude oiseau /Modelisation3D/cachev2.jpg" alt="cachev2" width="500" height="400"></td>
-    <td><img src="Etude oiseau /Modelisation3D/tetev2.jpg" alt="tetev2" width="500" height="400"></td>
-  </tr>
-</table>
 
   
 ## Séance 10
    
-   Au cours de cette dernière séance, nous avons assemblé la tête de l'aigle avec les différents PCB crée au cours des séance précédentes afin de permettre une ouverture et une fermeture du bec ainsi que le mouvement des paupières, ce que nous avons réussi comme en témoigne [la vidéo de démonstration du projet](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#rendu-final).
+   Au cours de cette séance, nous avons présenter notre avancement à M. Fiack et M. Papazoglou. 
+   Ensuite, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) ont pu continué de tester leur code et le modifier en fonction des problèmes qu'ils rencontraient. 
+   Pendant ce temps, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont continué de modéliser les pièces comprises dans l'articulation de l'aile de l'aigle.
+
+    <table>
+  <tr>
+    <td><img src="Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="150"></td>
+    <td><img src="Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="150"></td>
+    <td><img src="Hardware/Mécanique/liaison coude.png" alt="liaison coude" width="300" height="150"></td>
+  </tr>
+</table>
+
+
+## Séance 11
+   
+   Au cours de cette dernière séance, [Vincent](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#vincent-fernandes) et [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) ont pu finalisé leurs codes et s'assuerer qu'ils fonctionnaient comme ils l'avaient prévus.
+   Pendant ce temps, [Sedrenn](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#sedrenn-labrousse) et [Romane](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#romane-ponthieu) ont terminé de modéliser les pièces comprises dans l'articulation de l'aile de l'aigle et ont pu commencéà les imprimer en 3D.
+
+    <table>
+  <tr>
+    <td><img src="Hardware/Mécanique/liaison moteurs.png" alt="liaison moteurs" width="300" height="150"></td>
+    <td><img src="Hardware/Mécanique/radius.png" alt="radius" width="300" height="150"></td>
+  </tr>
+</table>
+
+
 
    Pour faire un bilan de ce projet revenons à la base de celui-ci et comparons le à notre rendu final. Au début du projet notre objectif était de réaliser un animatronique d'aigle capable de différents mouvements de la tête ainsi que des ailes, cependant dans notre [rendu final](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#rendu-final) nous avons seulement réussi à avoir la tête dans laquelle le bec et la paupière bougent. Cette différence s'explique par la difficulté liée à l'ambition d'un tel projet, en effet il y a eu plusieurs difficultés dans ce projet tel que des problèmes au niveau des PCB (problèmes de soudure, d'inversion de placement de SDA et SLC entre deux PCB et autres) ou encore sur la création de librairies pour la partie programmation et des modélisations 3D qui ont nécessitées plusieurs versions pour être opérationnelles. 
    Malgré tout cela, l'ensemble du groupe est fier et heureux d'avoir réussi à obtenir ce [résultat](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#rendu-final) et ce projet ne s'arrête pas ici puisque, en effet, le groupe dans son ensemble a décidé de poursuivre ce projet durant la deuxième année de notre cursus afin de finir ce qui était prévu initialement. 
