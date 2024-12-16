@@ -96,7 +96,7 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
    <table>
   <tr>
-    <td><img src="Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="400" height="300"></td>
+    <td><img src="Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="300" height="170"></td>
   </tr>
 </table>
 
@@ -107,7 +107,7 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
  <table>
   <tr>
-    <td><img src="Hardware/Mécanique/mécanisme ailes aigles.png" alt="mécanisme ailes aigles" width="400" height="300"></td>
+    <td><img src="Hardware/Mécanique/mécanisme ailes aigles.png" alt="mécanisme ailes aigles" width="300" height="120"></td>
   </tr>
 </table>
 
