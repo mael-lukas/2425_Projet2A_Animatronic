@@ -146,6 +146,7 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 </table>
 
 
+## Conclusion
 
    Pour conclure la première partie de ce projet, nous n'avons pas encore ce que nous espérons obtenir à la fin, mais nous nous en rapprochons. Chaque partie du projet a considérablement avancé, et certaines sont déjà finalisées, comme les PCB. Il ne nous manque plus que des détails, c'est-à-dire finaliser complètement les codes et effectuer l'assemblage mécanique de l'aigle. Après cela, nous pourrons relier chacune des parties de notre projet et voir si notre animatronique fonctionne comme nous l'avions prévu. Cette étape va être importante, et nous aurons sûrement de nouvelles modifications à effectuer au niveau du code et de la modélisation 3D. 
    L'ensemble du groupe est fier et heureux d'avoir réussi à avancer sur ce projet et il ne s'arrête pas ici puisque nous allons continuer de travailler sur celui-ci durant notre second semestre à l'école.
