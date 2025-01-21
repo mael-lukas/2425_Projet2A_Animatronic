@@ -15,8 +15,8 @@ Dans le cadre d'un projet de deuxième année à l'école d'ingénieur ENSEA,  n
   </tr>
 </table>
 
-[Diagramme d'architecure](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/diagramme_architecture.png)
-[Diagramme d'architecure du code](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/architecture_code.png)
+[](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/diagramme_architecture.png)
+[](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/architecture_code.png)
 
 
 # Equipe
