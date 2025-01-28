@@ -5629,7 +5629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/Flex_Sensor_Datasheet_v2019a-3304101.pdf"
 			(at 22.86 138.43 0)
 			(effects
 				(font
@@ -6884,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 33.02 60.96 0)
 			(effects
 				(font
@@ -8135,7 +8135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/Flex_Sensor_Datasheet_v2019a-3304101.pdf"
 			(at 114.3 138.43 0)
 			(effects
 				(font
@@ -9617,19 +9617,19 @@
 			)
 		)
 		(pin "7"
-			(uuid "f49f9bac-345d-4d5a-b56e-e49119528ca5")
+			(uuid "f49f9bac-345d-4d5a-b56e-e49119528ca6")
 		)
 		(pin "3"
-			(uuid "4f865b14-5aee-47b9-8ec1-3f61c068d326")
+			(uuid "4f865b14-5aee-47b9-8ec1-3f61c068d327")
 		)
 		(pin "2"
-			(uuid "f525c37a-3a11-4e87-aef6-3b713d80fce5")
+			(uuid "f525c37a-3a11-4e87-aef6-3b713d80fce6")
 		)
 		(pin "6"
-			(uuid "70658b72-4a9b-4dcb-b3f4-8c65643420db")
+			(uuid "70658b72-4a9b-4dcb-b3f4-8c65643420dc")
 		)
 		(pin "1"
-			(uuid "c9027bde-ee84-47b0-aa2a-935755b93719")
+			(uuid "c9027bde-ee84-47b0-aa2a-935755b9371a")
 		)
 		(pin "4"
 			(uuid "6c21cdc7-d3ce-4ce4-8978-b124a0370989")
@@ -9638,7 +9638,7 @@
 			(uuid "cf396153-52dd-47c6-9981-71c3e85d5b66")
 		)
 		(pin "5"
-			(uuid "64d072be-099c-4a2a-ada0-d2d612e06ce4")
+			(uuid "64d072be-099c-4a2a-ada0-d2d612e06ce5")
 		)
 		(instances
 			(project "untitled"
@@ -9839,10 +9839,10 @@
 			)
 		)
 		(pin "7"
-			(uuid "49967a75-13a0-4cc8-b10b-7784cac3c2d8")
+			(uuid "49967a75-13a0-4cc8-b10b-7784cac3c2d9")
 		)
 		(pin "5"
-			(uuid "2497f4dc-1ee9-4983-92eb-deb2c1ab673d")
+			(uuid "2497f4dc-1ee9-4983-92eb-deb2c1ab673e")
 		)
 		(pin "2"
 			(uuid "70ba354f-b3c0-49a7-a1d9-1c88fd10e7e6")
@@ -9854,13 +9854,13 @@
 			(uuid "80d3575d-7c18-4d4b-8b81-8d6e1d0f5ec2")
 		)
 		(pin "8"
-			(uuid "2d703594-d98a-45dd-9dd0-8f7f1456aa9a")
+			(uuid "2d703594-d98a-45dd-9dd0-8f7f1456aa9b")
 		)
 		(pin "4"
-			(uuid "5784abe2-086d-4ee6-a155-55a994bf2c2a")
+			(uuid "5784abe2-086d-4ee6-a155-55a994bf2c2b")
 		)
 		(pin "6"
-			(uuid "b48e2f7f-5bc9-480a-b58e-be7491c2d5dc")
+			(uuid "b48e2f7f-5bc9-480a-b58e-be7491c2d5dd")
 		)
 		(instances
 			(project "untitled"
@@ -10112,7 +10112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/Flex_Sensor_Datasheet_v2019a-3304101.pdf"
 			(at 68.58 138.43 0)
 			(effects
 				(font
