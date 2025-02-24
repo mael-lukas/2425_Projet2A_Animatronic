@@ -1,8 +1,0 @@
-../Core/Src/neopixel.c:11:6:neopixelSendResetState	16	static
-../Core/Src/neopixel.c:17:6:neopixelSendColor	48	static
-../Core/Src/neopixel.c:38:6:neopixelResetAll	16	static
-../Core/Src/neopixel.c:46:6:neopixelSendToLED	24	static
-../Core/Src/neopixel.c:57:6:arraySetColor	16	static
-../Core/Src/neopixel.c:65:6:arrayResetAll	16	static
-../Core/Src/neopixel.c:71:6:arrayRepaint	24	static
-../Core/Src/neopixel.c:79:6:rainbowWalk	16	static
