@@ -1,0 +1,6 @@
+../Core/Src/bluetooth_protocol.c:15:5:isInString	24	static
+../Core/Src/bluetooth_protocol.c:28:5:isAFloat	32	static
+../Core/Src/bluetooth_protocol.c:61:6:printLabelValue	8	static
+../Core/Src/bluetooth_protocol.c:66:14:checkInstruction	360	static
+../Core/Src/bluetooth_protocol.c:143:19:checkFrameForInstructions	21160	static
+../Core/Src/bluetooth_protocol.c:184:5:applyLabelValue	24	static

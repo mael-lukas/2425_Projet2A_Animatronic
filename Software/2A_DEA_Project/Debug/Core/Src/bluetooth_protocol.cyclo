@@ -1,0 +1,6 @@
+../Core/Src/bluetooth_protocol.c:15:5:isInString	3
+../Core/Src/bluetooth_protocol.c:28:5:isAFloat	7
+../Core/Src/bluetooth_protocol.c:61:6:printLabelValue	1
+../Core/Src/bluetooth_protocol.c:66:14:checkInstruction	12
+../Core/Src/bluetooth_protocol.c:143:19:checkFrameForInstructions	6
+../Core/Src/bluetooth_protocol.c:184:5:applyLabelValue	4

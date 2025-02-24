@@ -1,0 +1,10 @@
+../Core/Src/neopixel.c:18:5:ledstringInit	24	static
+../Core/Src/neopixel.c:28:5:ledstringSetHexColor	40	static
+../Core/Src/neopixel.c:37:5:ledstringSetRGBColor	24	static
+../Core/Src/neopixel.c:56:5:ledstringRepaint	16	static
+../Core/Src/neopixel.c:66:6:animateInit	8	static
+../Core/Src/neopixel.c:70:6:animateChaserFwd	24	static
+../Core/Src/neopixel.c:84:6:animateChaserBckwd	24	static
+../Core/Src/neopixel.c:100:6:animateChaserKudari	32	static
+../Core/Src/neopixel.c:122:6:animateChaserNobori	32	static
+../Core/Src/neopixel.c:144:6:animateBlink	24	static
