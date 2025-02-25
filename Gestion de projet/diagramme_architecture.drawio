@@ -429,7 +429,7 @@
         <mxCell id="RlTPsbFall8mQXjzGI87-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;strokeColor=#CC0066;" vertex="1" parent="1">
           <mxGeometry x="217" y="593" width="602" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="RlTPsbFall8mQXjzGI87-54" value="&lt;font color=&quot;#e00070&quot;&gt;PCB GANT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6666FF;" vertex="1" parent="1">
+        <mxCell id="RlTPsbFall8mQXjzGI87-54" value="&lt;font color=&quot;#cc0066&quot;&gt;PCB GANT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="211" y="817" width="89" height="30" as="geometry" />
         </mxCell>
       </root>
