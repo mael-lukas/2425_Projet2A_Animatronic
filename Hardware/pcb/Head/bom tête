@@ -1,0 +1,44 @@
+ Reference  Value  Datasheet  Footprint  Qty  DNP 
+ C101  10u  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C102  10u  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C201  22u  ~  Capacitor_SMD:C_0805_2012Metric  1   
+ C202  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C203  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C204  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C205  15p  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C206  22u  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C207  22u  ~  Capacitor_SMD:C_0805_2012Metric  1   
+ C301  22u  ~  Capacitor_SMD:C_0805_2012Metric  1   
+ C302  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C303  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C304  100n  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C305  15p  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C306  22u  ~  Capacitor_SMD:C_0603_1608Metric  1   
+ C307  22u  ~  Capacitor_SMD:C_0805_2012Metric  1   
+ H101  MountingHole_Pad  ~  MountingHole:MountingHole_3.2mm_M3_Pad_Via  1   
+ H102  MountingHole_Pad  ~  MountingHole:MountingHole_3.2mm_M3_Pad_Via  1   
+ H103  MountingHole_Pad  ~  MountingHole:MountingHole_3.2mm_M3_Pad_Via  1   
+ H104  MountingHole_Pad  ~  MountingHole:MountingHole_3.2mm_M3_Pad_Via  1   
+ J101  Conn_01x15  https://www.we-online.com/components/products/datasheet/618015231321.pdf  libs:CONN15_31321_WRE  1   
+ J102  Conn_01x06  ~  Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical  1   
+ J103  Conn_02x05_Odd_Even  ~  Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical  1   
+ J104  Conn_01x06  ~  Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical  1   
+ J105  Conn_01x06  ~  Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical  1   
+ L201  4u7  https://www.we-online.com/components/products/datasheet/74404052047.pdf  Llibrary:74404052047  1   
+ L301  4u7  https://www.we-online.com/components/products/datasheet/74404052047.pdf  Llibrary:74404052047  1   
+ R101  10k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R201  100k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R202  100k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R203  20  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R204  16k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R205  7k68  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R206  40k2  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R301  100k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R302  100k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R303  20  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R304  16k  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R305  7k68  ~  Resistor_SMD:R_0603_1608Metric  1   
+ R306  40k2  ~  Resistor_SMD:R_0603_1608Metric  1   
+ U101  AMS1117-5.0  http://www.advanced-monolithic.com/pdf/ds1117.pdf  Package_TO_SOT_SMD:SOT-223-3_TabPin2  1   
+ U201  ~    Package_TO_SOT_SMD:TSOT-23-8  1   
+ U301  ~    Package_TO_SOT_SMD:TSOT-23-8  1   
