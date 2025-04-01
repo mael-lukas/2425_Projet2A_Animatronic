@@ -44,6 +44,83 @@ Membres de l'équipe :
 
 Nous vous invitons à consulter notre [github de l'année dernière](https://github.com/mael-lukas/2324_Projet1AB_Animatronic), dans lequel vous pourrez trouver toutes les bases sur lesquelles nous avons démarré ce projet.
 
+# TITRE 
+
+Ce projet s'articule autour de plusieurs compétences techniques : informatique, électronique & CAO, modélisation & impression 3D et mécanique.
+
+
+## Informatique
+
+Cette partie a été majoritairement traitée par Maël avec également, de manière plus minoritaire, Vincent.
+Dans cette partie nous allons voir comment tout le code nécessaire au bon fonctionnement du DEA se présente.
+
+
+## Électronique & CAO
+
+Cette partie concerne différentes sous compétences : la conception des PCB et la soudure de ceux-ci, les test associés et finalement le cablâge. 
+Comme notre projet inclus plusieurs PCB, la conception des PCB a été faite par Vincent (PCB du corps et du gant) et Romane (PCB de la tête).
+Les soudures CMS ont été réalisées par Maël et Romane, tandis que les soudures THT ont été réalisées par Vincent.
+Le cablâge (sertissage) a été réalisé par Vincent.
+## Modélisation & Impression 3D
+
+Cette partie a été essentiellement traitée par Sedrenn aidée de Romane et Vincent.
+
+## Mécanique
+
+Cette partie concerne la gestion des différents moteurs qui a été faite par Maël pour l'implémentation du code, par Vincent pour le cablâge de ceux ci et leur placement sur la structure de l'aigle et par Sedrenn et Romane pour la conception des pièces 3D permettant de faire les liaisons entre ceux ci.
+
+### expliquer de manière à faire en sorte que anyone puisse le refaire chez soi
+# nezodnzeonroze
+
+Pour commencer, veuillez trouver ci-dessous le diagramme d'architecture qui nous a servis de base pour la création des PCB de ce projet:
+
+Voici donc, le schematic et le routage du PCB principal de projet, le PCB du corps :
+
+Ce PCB a eu le droit à plusieurs versions afin de l'améliorer à chaque ittération. La dernière en date est l'ajout de R1, une résistance de pull-up pour le protocol UART qui nous sert à commander les moteurs. Cependant, une fois ce nouveau PCB soudé et testé nous n'arrivions plus à communiquer avec les moteurs donc nous sommes repassé sur la version antérieure du PCB, qui elle est foncitonnel, où la résistance de pull-up est activée sur STM32CubeIDE.
+Vous pouvez trouvez [ici]() la BOM de ce PCB.
+
+Le second PCB que nous avons du réalisé est celui de la tête, vous constaterez qu'il n'a pas changé depuis [l'année dernière]() voici donc simplement son schematic, son routage et sa BOM.
+
+Il est à noter qu'avec plus de temps nous aurions suremenent modifier ce PCB car les besoins de notre projet ont changés, nous n'avons plus besoin de contrôler six servomoteurs mais par contre nous avons besoin d'une piste GPIO pour contrôler l'état haut ou bas de la pin XSDN du TOF.
+
+Le troisième et dernier PCB de projet est le PCB du gant qui se présente comme suit :
+(schematic, Routage et BOM)
+
+L'objectif avec ce PCB est de pouvoir commandé les mouvements de l'aigle avec les mouvements de nos doigts et ce sans liaison filaire mais avec une liaison bluetooth grâce au module HC05. Les empreintes de résistances en 1206 correspondent aux pads pour les [flex sensors]() qui sont des résistances variables qui nous permmettent grâce aux circuits visibles sur le schematic d'avoir une tension seuil à partir de laquelle on peut activer tel ou tel mouvement de l'aigle.
+Pour pouvoir fonctionner via une liaison Bluetooth nous alimentons le PCB grâce à une batterie Li-ion 1S et grâce à un module servant de Boost pour pouvoir amener une tension de +5V au pcb.
+
+Ce PCB pourrait avoir des versions plus évoluées notamment vis à vis des circuits des flex sensors qui peuvent être largement améliorer afin de par exemple pouvoir changer la tension seuil désirée avec des potentiomètres à la place des résistances.
+
+Ce PCB permet également le contrôle du volume du haut parleur grâce au rotary encoder présent dessus. Pour revenir rapidement sur cette partie "haut parleur", l'objectif est de pouvoir jouer des sons grâce à un parleur présents entre les pattes de l'aigle en fonction de la distance avec la personne en face de lui grâce au TOF. Par exemple, si je me trouve à un mètre de l'oiseau il me dira "Bonjour" par contre si je m'approche à dix centimètres de celui-ci il me dira "Recule".
+
+Pour finir cette partie, vous pouvez voir ci-dessous quelques photos des PCB réaliés. Vous constaterez qu'ils sont chacun entourés d'un support fait en impression 3D. Ces supports ne sont pas nécessaire in fine mais ils permettent d'éviter les risques en empéchant les collisions malheureuses entre les PCB, ce qui pourrait amener des problèmes si cela se passe lorsqu'ils sont en fonctionnement.
+
+Maintenant que nous avons commencé à parler de modélisation 3D il est temps d'attaquer le gros de celle-ci. En effet, nous avons décidés d'imprimer l'aigle entièrement en 3D en le vidant bien sûr à l'intérieur afin de pouvoi y plcer notre matériel. Nous avons séparés cette modélisation en 3 parties : la tête, les ailes et le reste.
+
+Tout d'abord, la tête:
+C'est sans aucun doute la partie la plus compliquée de cette modélisation car il faut la travailler pour faire en sorte que le bec et les paupières de l'aigle soit amovibles et contrôlables par des servomoteurs. Voici, ci-dessous les modèles 3D et l'impression de celle-ci.
+
+Pour continuer, les ailes: 
+À l'opposé de la tête, c'est la modééisation la plus simple de projet car elle consiste seulement en la réalisation de pièces permettant d'approximer les os de l'aigle avec des emplacements pour les moteurs de l'épaule et du coude. À cela il faut ajouter les modules rouges que vous pourrez voir ci-après qui permettent la pose des plumes.
+
+Pour finir, le corps:
+Au vu du temps disponible, nous avons juste eu le temps de travailler la cage toracique de l'oiseau et donc nous avons délaissé la queue et les pattes qui n'ont pas d'autres utilités à part apporter de l'esthétique au projet, là où l'abdomen possède, lui, un réel intérêt. En effet, il nous permet de ranger à l'intérieur l'ensemble de notre électronique et de notre câblage afin que le projet ne laisse, dans l'idéal, rien apparaître de l'extérieur si tenté un câble d'alimentation.
+
+La modélisation du courps à du se faire en quatres parties car nous avions une coontrainte de temps : les impressiosns ne peuvent pas durer plus de 12h et les dimensions des imprimantes 3D qui sont trop petites pour notre modélisation. En effet, les plus grandes imprimantes 3D que nous pssédons sont des Creality K1 Max qui permettent de réaliser des impressions en 300x300x300 or le corps de l'oiseau tend plutôt sur du 350x400x200. De plus, pour l'assemblage de ces quatres parties, au vu du temps mis à disposition pour ce projet nous n'avons pas pu prévoir de moyen d'emboîter et de désemboiter cette partie. Pour que le tout se tienne nous avons donc pris le partit de souder entre eux les morceaux de PLA une fois imprimés.
+
+Nous avons rapidement abordé la question des moteurs dans la partie précédente mais pour l'aborder un peu plus en profondeur, nous utilisons deux références de moteurs pour ce projet, les FS90 et les XL430. Les premiers sont des servomteur 180° permettant le choix d'une position sur un plage de 180° par l'envoi d'une PWM. Nous les utilisons pour commander le bec et les yeux de l'aigle car cela ne requiert que par de force. De l'autre côté, les XL430 nous servent pour les mouvement plus complexes et surtout qui demandent plus de force. En effet, nous utilisons six de ces moteurs pour réaliser les ailes de l'oiseau, sur chaque aile nous avons deux XL430 qui sont utilisés pour reproduire l'épaule et le troisième pour reproduire ce que nous pourrions appeler le coude. 
+
+Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièces liants les XL430 ont été réalisées en impression 3D à l'exceptio de la pièce liant les deux moteurs de l'épaule. En effet, nous avions également fait une première version de cette pièce en impression 3D mais le problème était qu'elle doit pouvoir soutenir tout le poids de l'aile. Cela a causé la destruction de la version 3D de la pièce lorsqu'i fallut tester les mouvements de l'aile. Pour pallier à cela nous avons commander la pièce en métal aurpès du fournisseur et c'est donc cette pièce que vous pouvez voir sur les photos.
+
+Cependant, tout cela ne pourrait fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
+
+
+
+
+
+
+
+
 # Journal de bord
 
 ## Séance 1
