@@ -15,10 +15,6 @@ Dans le cadre d'un projet de deuxième année à l'école d'ingénieur ENSEA,  n
   </tr>
 </table>
 
-[](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/diagramme_architecture.png)
-[](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/architecture_code.png)
-
-
 # Equipe
 Membres de l'équipe : 
 * #### Vincent Fernandes
@@ -44,16 +40,12 @@ Membres de l'équipe :
 
 Nous vous invitons à consulter notre [github de l'année dernière](https://github.com/mael-lukas/2324_Projet1AB_Animatronic), dans lequel vous pourrez trouver toutes les bases sur lesquelles nous avons démarré ce projet.
 
-# TITRE 
-
 Ce projet s'articule autour de plusieurs compétences techniques : informatique, électronique & CAO, modélisation & impression 3D et mécanique.
-
 
 ## Informatique
 
 Cette partie a été majoritairement traitée par Maël avec également, de manière plus minoritaire, Vincent.
 Dans cette partie nous allons voir comment tout le code nécessaire au bon fonctionnement du DEA se présente.
-
 
 ## Électronique & CAO
 
@@ -61,32 +53,63 @@ Cette partie concerne différentes sous compétences : la conception des PCB et 
 Comme notre projet inclus plusieurs PCB, la conception des PCB a été faite par Vincent (PCB du corps et du gant) et Romane (PCB de la tête).
 Les soudures CMS ont été réalisées par Maël et Romane, tandis que les soudures THT ont été réalisées par Vincent.
 Le cablâge (sertissage) a été réalisé par Vincent.
+
 ## Modélisation & Impression 3D
 
-Cette partie a été essentiellement traitée par Sedrenn aidée de Romane et Vincent.
+Cette partie a été essentiellement traitée par Sedrenn aidée de Romane et Vincent. L'objectif de celle-ci étant de modéliser et d'imprimer l'aigle en taille 1:1 ainsi que des caches pour protéger l'alimentation et les PCBs.
 
 ## Mécanique
 
-Cette partie concerne la gestion des différents moteurs qui a été faite par Maël pour l'implémentation du code, par Vincent pour le cablâge de ceux ci et leur placement sur la structure de l'aigle et par Sedrenn et Romane pour la conception des pièces 3D permettant de faire les liaisons entre ceux ci.
+Cette partie concerne la gestion des différents moteurs qui a été faite par Maël pour l'implémentation du code, par Vincent pour le cablâge de ceux-ci et leur placement sur la structure de l'aigle mais également par Sedrenn et Romane pour la conception des pièces 3D permettant de faire les liaisons entre ceux ci.
 
-### expliquer de manière à faire en sorte que anyone puisse le refaire chez soi
-# nezodnzeonroze
+# Électronique & CAO
 
 Pour commencer, veuillez trouver ci-dessous le diagramme d'architecture qui nous a servis de base pour la création des PCB de ce projet:
 
+<table>
+  <tr>
+    <td><img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400"></td>
+  </tr>
+</table>
+
 Voici donc, le schematic et le routage du PCB principal de projet, le PCB du corps :
 
-Ce PCB a eu le droit à plusieurs versions afin de l'améliorer à chaque ittération. La dernière en date est l'ajout de R1, une résistance de pull-up pour le protocol UART qui nous sert à commander les moteurs. Cependant, une fois ce nouveau PCB soudé et testé nous n'arrivions plus à communiquer avec les moteurs donc nous sommes repassé sur la version antérieure du PCB, qui elle est foncitonnel, où la résistance de pull-up est activée sur STM32CubeIDE.
-Vous pouvez trouvez [ici]() la BOM de ce PCB.
+<table>
+  <tr>
+    <td><img src="Hardware/pcb/Body/schematic.png" alt="Schematic" width="500" height="400"></td>
+    <td><img src="Hardware/pcb/Body/routage.png" alt="Routage" width="500" height="400"></td>
+  </tr>
+</table>
 
-Le second PCB que nous avons du réalisé est celui de la tête, vous constaterez qu'il n'a pas changé depuis [l'année dernière]() voici donc simplement son schematic, son routage et sa BOM.
+Ce PCB a eu le droit à plusieurs versions afin de l'améliorer à chaque ittération. La dernière en date est l'ajout de R1, une résistance de pull-up pour le protocol UART qui nous sert à commander les moteurs. Cependant, une fois ce nouveau PCB soudé et testé nous n'arrivions plus à communiquer avec les moteurs donc nous sommes repassé sur la version antérieure du PCB, qui elle est foncitonnel, où la résistance de pull-up est activée sur STM32CubeIDE.
+Vous pouvez trouvez [ici](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Hardware/pcb/Body/ProjetCorps.csv)la BOM de ce PCB.
+
+Le second PCB que nous avons du réalisé est celui de la tête, vous constaterez qu'il n'a pas changé depuis [l'année dernière](https://github.com/mael-lukas/2324_Projet1AB_Animatronic) voici donc simplement son schematic, son routage et sa BOM :
+
+<table>
+  <tr>
+    <td><img src="Hardware/pcb/Head/Schematic.png" alt="Schematic" width="500" height="400"></td>
+    <td><img src="Hardware/pcb/Head/Routage.png" alt="Routage" width="500" height="400"></td>
+  </tr>
+</table>
+
+[BOM](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Hardware/pcb/Head/bom%20t%C3%AAte)
 
 Il est à noter qu'avec plus de temps nous aurions suremenent modifier ce PCB car les besoins de notre projet ont changés, nous n'avons plus besoin de contrôler six servomoteurs mais par contre nous avons besoin d'une piste GPIO pour contrôler l'état haut ou bas de la pin XSDN du TOF.
 
 Le troisième et dernier PCB de projet est le PCB du gant qui se présente comme suit :
-(schematic, Routage et BOM)
 
-L'objectif avec ce PCB est de pouvoir commandé les mouvements de l'aigle avec les mouvements de nos doigts et ce sans liaison filaire mais avec une liaison bluetooth grâce au module HC05. Les empreintes de résistances en 1206 correspondent aux pads pour les [flex sensors]() qui sont des résistances variables qui nous permmettent grâce aux circuits visibles sur le schematic d'avoir une tension seuil à partir de laquelle on peut activer tel ou tel mouvement de l'aigle.
+
+<table>
+  <tr>
+    <td><img src="Hardware/pcb/Gant/PCB_Gant/schematic.png" alt="Schematic" width="500" height="400"></td>
+    <td><img src="Hardware/pcb/Gant/PCB_Gant/routage.png" alt="Routage" width="500" height="400"></td>
+  </tr>
+</table>
+
+[BOM](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Hardware/pcb/Gant/PCB_Gant/PCB_Gant.csv)
+
+L'objectif avec ce PCB est de pouvoir commander les mouvements de l'aigle avec les mouvements de nos doigts et ce sans liaison filaire mais avec une liaison bluetooth grâce au module HC05. Les empreintes de résistances en 1206 correspondent aux pads des [flex sensors](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/Flex_Sensor_Datasheet_v2019a-3304101.pdf) qui sont des résistances variables qui nous permmettent grâce aux circuits visibles sur le schematic d'avoir une tension seuil à partir de laquelle on peut activer tel ou tel mouvement de l'aigle.
 Pour pouvoir fonctionner via une liaison Bluetooth nous alimentons le PCB grâce à une batterie Li-ion 1S et grâce à un module servant de Boost pour pouvoir amener une tension de +5V au pcb.
 
 Ce PCB pourrait avoir des versions plus évoluées notamment vis à vis des circuits des flex sensors qui peuvent être largement améliorer afin de par exemple pouvoir changer la tension seuil désirée avec des potentiomètres à la place des résistances.
