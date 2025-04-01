@@ -10,13 +10,14 @@ Dans le cadre d'un projet de deuxième année à l'école d'ingénieur ENSEA,  n
 
 <table>
   <tr>
-    <td><img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400"></td>
-    <td><img src="Gestion de projet/architecture_code.png" alt="Diagramme d'architecture du code" width="500" height="400"></td>
+    <td><img src="diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400"></td>
+    <td><img src="architecture_code.png" alt="Diagramme d'architecture du code" width="500" height="400"></td>
   </tr>
 </table>
 
 [](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/diagramme_architecture.png)
 [](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/architecture_code.png)
+
 
 
 # Equipe
@@ -61,6 +62,7 @@ Cette partie concerne différentes sous compétences : la conception des PCB et 
 Comme notre projet inclus plusieurs PCB, la conception des PCB a été faite par Vincent (PCB du corps et du gant) et Romane (PCB de la tête).
 Les soudures CMS ont été réalisées par Maël et Romane, tandis que les soudures THT ont été réalisées par Vincent.
 Le cablâge (sertissage) a été réalisé par Vincent.
+
 ## Modélisation & Impression 3D
 
 Cette partie a été essentiellement traitée par Sedrenn aidée de Romane et Vincent.
@@ -169,8 +171,11 @@ Finalement, le code du module est surement la partie qui nous a été le plus si
    Durant cette séance, nous avons effectuer une première présentation du projet à nos professeurs, qui ont pu constater notre avancée et nous guider.
    Par la suite, M.Papazoglou et M. Fiack ont pu vérifier les 3 [PCB](https://github.com/mael-lukas/2324_Projet1AB_Animatronic?tab=readme-ov-file#pcb) et nous faire des retours pour que l'on puisse corriger nos erreurs et effectuer des nouvelles modifications.
    M. Fiack a aussi revu les codes des moteurs avec [Maël](https://github.com/mael-lukas/2324_Projet1AB_Animatronic/tree/main?tab=readme-ov-file#ma%C3%ABl-lukas) et il a pu corriger tous les problèmes qu'il rencontrait.
- Pendant cette séance, Sedrenn a pu finir le squelette de l'aigle.
-   ![Squelette de l'aigle](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Hardware/M%C3%A9canique/squelette%20aigle.png)
+    Pendant cette séance, Sedrenn a pu finir le squelette de l'aigle.
+   
+   ![Squelette de l'aigle] (../Hardware/Mécanique/ailes/photos/squelette aigle.png)
+
+
 
 
 ## Séance 6
@@ -187,7 +192,7 @@ Finalement, le code du module est surement la partie qui nous a été le plus si
 
 <table>
   <tr>
-    <td><img src="Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="300" height="200"></td>
+    <td><img src="../Hardware/Mécanique/liaison moteur-squelette.png" alt="liaison moteur-squelette" width="300" height="200"></td>
 </table>
 
    
@@ -217,9 +222,9 @@ Finalement, le code du module est surement la partie qui nous a été le plus si
 
 <table>
   <tr>
-    <td><img src="Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="200"></td>
-    <td><img src="Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="200"></td>
-    <td><img src="Hardware/Mécanique/liaison coude.png" alt="liaison coude" width="300" height="200"></td>
+    <td><img src="../Hardware/Mécanique/humérus.png" alt="humérus" width="300" height="200"></td>
+    <td><img src="../Hardware/Mécanique/liaison cubitus - main.png" alt="liaison cubitus-main" width="300" height="200"></td>
+    <td><img src="../Hardware/Mécanique/liaison coude.png" alt="liaison coude" width="300" height="200"></td>
   </tr>
 </table>
 
