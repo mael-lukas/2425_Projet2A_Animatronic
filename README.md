@@ -1,25 +1,22 @@
-# 2425_Projet2A_Animatronic
-Projet ENSEA 2A Animatronic
-
-# DEA : Dynamic Eagle Animatronic
+<h1 align="center"> DEA : Dynamic Eagle Animatronic</h1>
 
 _An english version of this README can be found below the french one_
 
-## Préambule
+<h2 align="center">Préambule</h2>
 Depuis la Grêce antique et le mythe du géant de bronze Talos, les hommes ont toujours cherchés à créer des automates avec les moyens à leur disposition. Les animatroniques sont l'achèvement actuel de ce désir. Ce sont des poupées mécaniques plus ou moins réalistes dont le fonctionnement interne fait intervenir autant la mécanique que l'électronique.
 Elles sont, depuis plusieurs décennies, et encore aujourd'hui principalement utilisées dans le domaine du divertissement au travers des parcs d'attractions, des films et des séries.
 
-Dans le cadre d'un projet de deuxième année à l'école d'ingénieur française ENSEA ( École Nationale Supérieure de l'Électronique et de ses Applications), nous allons continuer la création d'une animatronique d'aigle royal. Ce projet aura été supervisé par [M.Papazoglou](https://github.com/DBXYD?tab=overview&from=2024-05-01&to=2024-05-29) et [M.Fiack](https://github.com/lfiack).
+Dans le cadre d'un projet de deuxième année à l'école d'ingénieur française ENSEA ( École Nationale Supérieure de l'Électronique et de ses Applications), nous allons continuer la création d'une animatronique d'aigle royal démarrée au second semestre de l'année dernière.
 
-#Sommaire 
-  * ## Équipe et détail des tâches
-  * ## Électronique et CAO
-  * ## Modélisation & Impression 3D
-  * ## Mécanique
-  * ## Informatique
-  * ## Résultat final
-  * ## Points d'amélioration
-  * ## Conclusion
+# Sommaire 
+  * #### Équipe et détail des tâches
+  * #### Électronique et CAO
+  * #### Modélisation & Impression 3D
+  * #### Mécanique
+  * #### Informatique
+  * #### Résultat final
+  * #### Points d'amélioration
+  * #### Conclusion
 
 <table>
   <tr>
@@ -28,7 +25,8 @@ Dans le cadre d'un projet de deuxième année à l'école d'ingénieur français
   </tr>
 </table>
 
-# Equipe
+<h1 align="center">Équipe</h1>
+
 Membres de l'équipe : 
 * #### Vincent Fernandes
     * [Github](https://github.com/FernandesVincent)
@@ -55,27 +53,27 @@ Nous vous invitons à consulter notre [github de l'année dernière](https://git
 
 Ce projet s'articule autour de plusieurs compétences techniques : informatique, électronique & CAO, modélisation & impression 3D et mécanique. Chacune ayant partagée entre différents membres de l'équipe.
 
-## Informatique
+   * Informatique
 
 Cette partie a été majoritairement traitée par Maël avec également, de manière plus minoritaire, Vincent.
 Dans cette partie nous allons voir comment tout le code nécessaire au bon fonctionnement du DEA se présente. En partant de simple envoies de PWM pour commander des servomoteurs à la programmation de moteurs plus complexes, en passant par l'allumage de LED neopxiel et de la communication Bluetooth.
 
-## Électronique & CAO
+   * Électronique & CAO
 
 Cette partie concerne différentes sous compétences : la conception des PCB, la soudure de ceux-ci, les test associés et finalement le sertissage et cablâge. 
 Comme notre projet inclus plusieurs PCBs, leur conception a été réalisée par Vincent (pour les PCBs du corps et du gant) et Romane (pour le PCB de la tête).
 Les soudures CMS ont été réalisées par Maël et Romane, tandis que les soudures THT ont été effectuées par Vincent.
 Le sertissage et le cablâge ont également été réalisé par Vincent.
 
-## Modélisation & Impression 3D
+   * Modélisation & Impression 3D
 
 Cette partie a été essentiellement traitée par Sedrenn aidée de Romane et Vincent. L'objectif de celle-ci étant de modéliser et d'imprimer l'aigle en taille 1:1 ainsi que des caches pour protéger l'alimentation et les PCBs.
 
-## Mécanique
+   * Mécanique
 
 Cette partie concerne la gestion des différents moteurs qui a été faite par Maël pour l'implémentation du code, par Vincent pour le cablâge de ceux-ci et leur placement sur la structure de l'aigle mais également par Sedrenn et Romane pour la conception des pièces 3D permettant de faire les liaisons entre ceux-ci.
 
-# Électronique & CAO
+<h1 align="center">Électronique & CAO</h1>
 
 Pour commencer, veuillez trouver ci-dessous le diagramme d'architecture qui nous a servis de base pour la création des PCB de ce projet:
 
@@ -132,9 +130,7 @@ Ce PCB permet également le contrôle du volume du haut parleur grâce à l'enco
 Pour finir cette partie, vous pouvez voir ci-dessous quelques photos des PCB réaliés. Vous constaterez qu'ils sont chacun entourés d'un support fait en impression 3D. Ces supports ne sont pas nécessaire in fine mais ils permettent d'éviter les risques en empéchant les collisions malheureuses entre les PCB, ce qui pourrait amener des problèmes si cela se passe lorsqu'ils sont en fonctionnement.
 
 
-
-
-# Modélisation & Impression 3D
+<h1 align="center">Modélisation & Impression 3D</h1>
 
 
 Maintenant que nous avons commencé à parler de modélisation 3D il est temps d'attaquer totalement cette partie. En effet, nous avons décidés d'imprimer l'aigle entièrement en 3D en le vidant bien sûr à l'intérieur afin de pouvoir y placer notre matériel. Nous avons séparés cette modélisation en 3 parties : la tête, les ailes et le reste.
@@ -171,14 +167,17 @@ Au vu du temps disponible, nous avons juste eu le temps de travailler la cage to
 
 La modélisation du corps à due se faire en quatres parties car nous avions une coontrainte de temps : les impressiosns ne peuvent pas durer plus de 12h et les dimensions des imprimantes 3D qui sont trop petites pour notre modélisation. En effet, les plus grandes imprimantes 3D que nous pssédons sont des Creality K1 Max qui permettent de réaliser des impressions en 300x300x300 or le corps de l'oiseau tend plutôt sur du 350x400x200. De plus, pour l'assemblage de ces quatres parties, au vu du temps mis à disposition pour ce projet nous n'avons pas pu prévoir de moyen d'emboîter et de désemboiter cette partie. Pour que le tout se tienne nous avons donc pris le partit de coller les différentes parties avec un pistolet à colle.
 
-# Mécanique
+
+<h1 align="center">Mécanique</h1>
+
 
 Nous avons rapidement abordé la question des moteurs dans la partie précédente mais pour l'aborder un peu plus en profondeur, nous utilisons deux références de moteurs pour ce projet, les FS90 et les XL430. Les premiers sont des servomteur 180° permettant le choix d'une position sur un plage de 180° par l'envoi d'une PWM. Nous les utilisons pour commander le bec et les yeux de l'aigle car cela ne requiert que par de force. De l'autre côté, les XL430 nous servent pour les mouvement plus complexes et surtout qui demandent plus de force. En effet, nous utilisons six de ces moteurs pour réaliser les ailes de l'oiseau, sur chaque aile nous avons deux XL430 qui sont utilisés pour reproduire l'épaule et le troisième pour reproduire ce que nous pourrions appeler le coude. 
 
 Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièces liants les XL430 ont été réalisées en impression 3D à l'exceptio de la pièce liant les deux moteurs de l'épaule. En effet, nous avions également fait une première version de cette pièce en impression 3D mais le problème était qu'elle doit pouvoir soutenir tout le poids de l'aile. Cela a causé la destruction de la version 3D de la pièce lorsqu'i fallut tester les mouvements de l'aile. Pour pallier à cela nous avons commander la pièce en métal aurpès du fournisseur et c'est donc cette pièce que vous pouvez voir sur les photos.
 
 
-# Informatique
+<h1 align="center">Informatique</h1>
+
 
 Cependant, tout cela ne pourrait pas fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
 
@@ -194,11 +193,11 @@ Les LED neopixel sont quant à elles une partie assez simple que nous avions ré
 
 Finalement, le code du module est surement la partie qui nous a été le plus simple à réalisée et qui nous permet, avec le module suivant : https://www.gotronic.fr/art-module-mp3-uart-mp3player-38215.htm de pouvoir jouer n'importe quel son présent sur la carte micro SD.
 
-# Résultat final
+<h1 align="center">Résultat final</h1>
  
-# Points d'amélioration
+<h1 align="center">Points d'amélioration</h1>
  
-# Conclusion
+<h1 align="center">Conclusion</h1>
 
 ************************************************************************************************************************************************************************************
 
