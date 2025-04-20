@@ -79,7 +79,9 @@ Pour commencer, veuillez trouver ci-dessous le diagramme d'architecture qui nous
 
 <table>
   <tr>
-    <td><img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400"></td>
+    <td align="center">
+      <img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400">
+    </td>
   </tr>
 </table>
 
