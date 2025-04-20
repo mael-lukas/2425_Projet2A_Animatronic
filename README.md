@@ -77,13 +77,9 @@ Cette partie concerne la gestion des différents moteurs qui a été faite par M
 
 Pour commencer, veuillez trouver ci-dessous le diagramme d'architecture qui nous a servis de base pour la création des PCB de ce projet:
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400">
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="Gestion de projet/diagramme_architecture.png" alt="Diagramme d'architecture" width="500" height="400">
+</div>
 
 Voici donc, le schematic et le routage du PCB principal de projet, le PCB du corps :
 
