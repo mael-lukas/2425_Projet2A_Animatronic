@@ -166,9 +166,18 @@ Puis il a du être modifié afin notamment de vider l'intérieur, pour permettre
 
 <table>
   <tr>
-    <td><img src="" alt="" width="500" height="400"></td>
-    <td><img src="" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/humérus.png" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison coude.png" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison cubitus - main.png" alt="" width="500" height="400"></td>
   </tr>
+</table>
+
+<table>
+ <tr>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteur-squelette.png" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteurs.png" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/radius.png" alt="" width="500" height="400"></td>
+ </tr>
 </table>
 
 ## Corps
