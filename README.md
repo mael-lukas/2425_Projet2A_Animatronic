@@ -166,17 +166,17 @@ Puis il a du être modifié afin notamment de vider l'intérieur, pour permettre
 
 <table>
   <tr>
-    <td><img src="Hardware/Mecanique/ailes/photos/humérus.png" alt="humerus" width="500" height="400"></td>
-    <td><img src="Hardware/Mecanique/ailes/photos/liaison coude.png" alt="coude" width="500" height="400"></td>
-    <td><img src="Hardware/Mecanique/ailes/photos/liaison cubitus - main.png" alt="cubitus" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/humérus.png" alt="humerus" width="400" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison coude.png" alt="coude" width="400" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison cubitus - main.png" alt="cubitus" width="400" height="400"></td>
   </tr>
 </table>
 
 <table>
  <tr>
-    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteur-squelette.png" alt="moteur squelette" width="500" height="400"></td>
-    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteurs.png" alt="moteurs" width="500" height="400"></td>
-    <td><img src="Hardware/Mecanique/ailes/photos/radius.png" alt="radius" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteur-squelette.png" alt="moteur squelette" width="400" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/liaison moteurs.png" alt="moteurs" width="400" height="400"></td>
+    <td><img src="Hardware/Mecanique/ailes/photos/radius.png" alt="radius" width="400" height="400"></td>
  </tr>
 </table>
 
