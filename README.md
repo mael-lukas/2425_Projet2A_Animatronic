@@ -1,6 +1,6 @@
 <h1 align="center"> DEA : Dynamic Eagle Animatronic</h1>
 
-_An english version of this README can be found below the french one_
+<p align="center">_An english version of this README can be found below the french one_</p>
 
 <h2 align="center">Préambule</h2>
 Depuis la Grêce antique et le mythe du géant de bronze Talos, les hommes ont toujours cherchés à créer des automates avec les moyens à leur disposition. Les animatroniques sont l'achèvement actuel de ce désir. Ce sont des poupées mécaniques plus ou moins réalistes dont le fonctionnement interne fait intervenir autant la mécanique que l'électronique.
