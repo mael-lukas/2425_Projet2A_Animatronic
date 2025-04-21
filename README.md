@@ -1,6 +1,6 @@
 <h1 align="center"> DEA : Dynamic Eagle Animatronic</h1>
 
-<p align="center">_An english version of this README can be found below the french one_</p>
+<p align="center">An english version of this README can be found below the french one</p>
 
 <h2 align="center">Préambule</h2>
 Depuis la Grêce antique et le mythe du géant de bronze Talos, les hommes ont toujours cherchés à créer des automates avec les moyens à leur disposition. Les animatroniques sont l'achèvement actuel de ce désir. Ce sont des poupées mécaniques plus ou moins réalistes dont le fonctionnement interne fait intervenir autant la mécanique que l'électronique.
@@ -134,12 +134,30 @@ Pour finir cette partie, vous pouvez voir ci-dessous quelques photos des PCB ré
 Maintenant que nous avons commencé à parler de modélisation 3D il est temps d'attaquer totalement cette partie. En effet, nous avons décidés d'imprimer l'aigle entièrement en 3D en le vidant bien sûr à l'intérieur afin de pouvoir y placer notre matériel. Nous avons séparés cette modélisation en 3 parties : la tête, les ailes et le reste.
 
 ## Tête
-C'est sans aucun doute la partie la plus compliquée de cette modélisation car il faut la travailler pour faire en sorte que le bec et les paupières de l'aigle soit amovibles et contrôlables par des servomoteurs. Voici, ci-dessous les modèles 3D et l'impression de celle-ci.
+C'est sans aucun doute la partie la plus compliquée de cette modélisation car il faut la travailler pour faire en sorte que le bec et les paupières de l'aigle soit amovibles et contrôlables par des servomoteurs. Voici, ci-dessous le modèle 3D et l'impression de celle-ci.
 
 <table>
   <tr>
+    <td><img src="Hardware/Mecanique/head/photos/head_full.png" alt=" modélisation tête" width="500" height="400"></td>
     <td><img src="" alt="" width="500" height="400"></td>
-    <td><img src="" alt="" width="500" height="400"></td>
+  </tr>
+</table>
+
+Le modèle 3D a été repris d'internet... 
+Puis il a du être modifié afin notamment de vider l'intérieur, pour permettre le placement des moteurs, mais aussi de rendre la bouche et les paupières ammovibles.
+
+<table>
+  <tr>
+    <td><img src="Hardware/Mecanique/head/photos/head_left.png" alt="tête gauche" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/head/photos/head_right.png" alt="tête droite" width="500" height="400"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="Hardware/Mecanique/head/photos/mouth.png" alt="bouche" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/head/photos/paupiere_left.png" alt="paupière gauche" width="250" height="400"></td>
+    <td><img src="Hardware/Mecanique/head/photos/paupiere_right.png" alt="paupière droite" width="250" height="400"></td>
   </tr>
 </table>
 
