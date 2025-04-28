@@ -211,7 +211,7 @@ Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièce
 Cependant, tout cela ne pourrait pas fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
 
 <div align="center">
-  <img src="Gestion de projet/architecture_code.pdf" alt="Diagramme d'architecture code" width="500" height="400">
+  <img src="Gestion de projet/architecture_code.pdf" alt="architecture code" width="500" height="400">
 </div>
 
 Nous allons traiter chaque partie de code de gauche à droite d'après ce diagramme en commençant tout d'abord par le code pour la communication bluetooth entre le STM32G474RET6 et le STM32G431KBT6.
@@ -239,8 +239,7 @@ Finalement à la fin de ce projet nous avons pu obtenir les résultats suivant :
 CI-dessous vous pouvez voir une vidéo avec l'actionnement des 6 moteurs XL430 ainsi que des photos du rendu final de l'aigle:
 
 <video width="640" height="360" controls>
-  <source src="https://example.com/video.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la balise vidéo.
+  <source src="Gestion de projet/moteurs fonctionnels.mp4" type="video/mp4">
 </video>
 
 
