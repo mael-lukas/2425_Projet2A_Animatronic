@@ -136,11 +136,11 @@ Maintenant que nous avons commencé à parler de modélisation 3D il est temps d
 ## Tête
 C'est sans aucun doute la partie la plus compliquée de cette modélisation car il faut la travailler pour faire en sorte que le bec et les paupières de l'aigle soit amovibles et contrôlables par des servomoteurs. Voici, ci-dessous le modèle 3D et l'impression de celle-ci.
 
-<table>
-  <tr>
-    <td><img src="Hardware/Mecanique/head/photos/head_full.png" alt=" modélisation tête" width="500" height="400"></td>
-  </tr>
-</table>
+
+<div align="center">
+  <img src="Hardware/Mecanique/head/photos/head_full.png" alt="modélisation tête" width="500" height="400">
+</div>
+
 
 Le modèle 3D a été repris d'un modèle existant, puis il a du être modifié afin notamment de vider l'intérieur, pour permettre le placement des moteurs, mais aussi de rendre la bouche et les paupières ammovibles.
 
@@ -211,7 +211,7 @@ Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièce
 Cependant, tout cela ne pourrait pas fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
 
 <div align="center">
-  <img src="Gestion de projet/architecture_code.pdf" alt="architecture code" width="500" height="400">
+  <img src="Gestion de projet/architecture_code.pdf" alt="Diagramme d'architecture code" width="500" height="400">
 </div>
 
 Nous allons traiter chaque partie de code de gauche à droite d'après ce diagramme en commençant tout d'abord par le code pour la communication bluetooth entre le STM32G474RET6 et le STM32G431KBT6.
@@ -236,11 +236,16 @@ Finalement à la fin de ce projet nous avons pu obtenir les résultats suivant :
 * PCB fonctionnels
 * code fonctionnel
 
-CI-dessous vous pouvez voir une vidéo avec l'actionnement des 6 moteurs XL430 ainsi que des photos du rendu final de l'aigle:
+CI-dessous vous pouvez télécharger une vidéo avec l'actionnement des 6 moteurs XL430 ainsi que des photos du rendu final de l'aigle:
 
-<video width="640" height="360" controls>
-  <source src="Gestion de projet/moteurs fonctionnels.mp4" type="video/mp4">
-</video>
+[Voir la vidéo](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Gestion%20de%20projet/moteurs%20fonctionnels.mp4)
+
+<table>
+  <tr>
+    <td><img src="Hardware/Mecanique/body/pièce métal moteur.jpg" alt="pièce métal droite" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/body/pièce métal moteur 2.jpg" alt="pièce métal gauche" width="500" height="400"></td>
+  </tr>
+</table>
 
 
  
