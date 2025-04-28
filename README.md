@@ -242,8 +242,8 @@ CI-dessous vous pouvez télécharger une vidéo avec l'actionnement des 6 moteur
 
 <table>
   <tr>
-    <td><img src="Gestion de projet/final1.jpg" alt="final 1" width="500" height="400"></td>
-    <td><img src="Gestion de projet/final2.jpg" alt="final 2" width="500" height="400"></td>
+    <td><img src="Gestion de projet/final1.jpg" alt="final 1" width="700" height="400"></td>
+    <td><img src="Gestion de projet/final2.jpg" alt="final 2" width="700" height="400"></td>
   </tr>
 </table>
 
