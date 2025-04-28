@@ -211,7 +211,7 @@ Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièce
 Cependant, tout cela ne pourrait pas fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
 
 <div align="center">
-  <img src="Gestion de projet/architecture_code.pdf" alt="Diagramme d'architecture code" width="500" height="400">
+  <img src="Gestion de projet/architecture_code.pdf" alt="architecture code" width="500" height="400">
 </div>
 
 Nous allons traiter chaque partie de code de gauche à droite d'après ce diagramme en commençant tout d'abord par le code pour la communication bluetooth entre le STM32G474RET6 et le STM32G431KBT6.
@@ -242,8 +242,8 @@ CI-dessous vous pouvez télécharger une vidéo avec l'actionnement des 6 moteur
 
 <table>
   <tr>
-    <td><img src="Hardware/Mecanique/body/pièce métal moteur.jpg" alt="pièce métal droite" width="500" height="400"></td>
-    <td><img src="Hardware/Mecanique/body/pièce métal moteur 2.jpg" alt="pièce métal gauche" width="500" height="400"></td>
+    <td><img src="Gestion de projet/final1.jpg" alt="final 1" width="500" height="400"></td>
+    <td><img src="Gestion de projet/final2.jpg" alt="final 2" width="500" height="400"></td>
   </tr>
 </table>
 
