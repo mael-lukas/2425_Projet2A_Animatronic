@@ -139,7 +139,6 @@ C'est sans aucun doute la partie la plus compliquée de cette modélisation car 
 <table>
   <tr>
     <td><img src="Hardware/Mecanique/head/photos/head_full.png" alt=" modélisation tête" width="500" height="400"></td>
-    <td><img src="" alt="" width="500" height="400"></td>
   </tr>
 </table>
 
