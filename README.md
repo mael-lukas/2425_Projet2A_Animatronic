@@ -194,15 +194,25 @@ L'impression du corps à due se faire en quatres parties car nous avions une coo
 <h1 align="center">Mécanique</h1>
 
 
-Nous avons rapidement abordé la question des moteurs dans la partie précédente mais pour l'aborder un peu plus en profondeur, nous utilisons deux références de moteurs pour ce projet, les FS90 et les XL430. Les premiers sont des servomteur 180° permettant le choix d'une position sur un plage de 180° par l'envoi d'une PWM. Nous les utilisons pour commander le bec et les yeux de l'aigle car cela ne requiert que par de force. De l'autre côté, les XL430 nous servent pour les mouvement plus complexes et surtout qui demandent plus de force. En effet, nous utilisons six de ces moteurs pour réaliser les ailes de l'oiseau, sur chaque aile nous avons deux XL430 qui sont utilisés pour reproduire l'épaule et le troisième pour reproduire ce que nous pourrions appeler le coude. 
+Nous avons rapidement abordé la question des moteurs dans la partie précédente mais pour l'aborder un peu plus en profondeur, nous utilisons deux références de moteurs pour ce projet, les [FS90](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/FS90.pdf) et les [XL430](https://github.com/mael-lukas/2425_Projet2A_Animatronic/blob/main/Datasheets/XL430-W250-T.pdf). Les premiers sont des servomteur 180° permettant le choix d'une position sur un plage de 180° par l'envoi d'une PWM. Nous les utilisons pour commander le bec et les yeux de l'aigle car cela ne requiert que par de force. De l'autre côté, les XL430 nous servent pour les mouvement plus complexes et surtout qui demandent plus de force. En effet, nous utilisons six de ces moteurs pour réaliser les ailes de l'oiseau, sur chaque aile nous avons deux XL430 qui sont utilisés pour reproduire l'épaule et le troisième pour reproduire ce que nous pourrions appeler le coude. 
 
-Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièces liants les XL430 ont été réalisées en impression 3D à l'exceptio de la pièce liant les deux moteurs de l'épaule. En effet, nous avions également fait une première version de cette pièce en impression 3D mais le problème était qu'elle doit pouvoir soutenir tout le poids de l'aile. Cela a causé la destruction de la version 3D de la pièce lorsqu'i fallut tester les mouvements de l'aile. Pour pallier à cela nous avons commander la pièce en métal aurpès du fournisseur et c'est donc cette pièce que vous pouvez voir sur les photos.
+Vous l'avez peut-être remarquez sur les photos ci-dessus mais toutes les pièces liants les XL430 ont été réalisées en impression 3D à l'exceptio de la pièce liant les deux moteurs de l'épaule. En effet, nous avions également fait une première version de cette pièce en impression 3D mais le problème était qu'elle doit pouvoir soutenir tout le poids de l'aile. Cela a causé la destruction de la version 3D de la pièce lorsqu'i fallut tester les mouvements de l'aile. Pour pallier à cela nous avons commander la pièce en métal aurpès du fournisseur et c'est donc cette pièce que vous pouvez voir sur les photos ci-dessous:
 
+<table>
+  <tr>
+    <td><img src="Hardware/Mecanique/body/pièce métal moteur.jpg" alt="pièce métal droite" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/body/pièce métal moteur 2.jpg" alt="pièce métal gauche" width="500" height="400"></td>
+  </tr>
+</table>
 
 <h1 align="center">Informatique</h1>
 
 
 Cependant, tout cela ne pourrait pas fonctionner sans code. Voici, ci-dessous le diagramme d'architecture du code:
+
+<div align="center">
+  <img src="Gestion de projet/architecture_code.pdf" alt="Diagramme d'architecture code" width="500" height="400">
+</div>
 
 Nous allons traiter chaque partie de code de gauche à droite d'après ce diagramme en commençant tout d'abord par le code pour la communication bluetooth entre le STM32G474RET6 et le STM32G431KBT6.
 
@@ -217,6 +227,23 @@ Les LED neopixel sont quant à elles une partie assez simple que nous avions ré
 Finalement, le code du module est surement la partie qui nous a été le plus simple à réalisée et qui nous permet, avec le module suivant : https://www.gotronic.fr/art-module-mp3-uart-mp3player-38215.htm de pouvoir jouer n'importe quel son présent sur la carte micro SD.
 
 <h1 align="center">Résultat final</h1>
+
+Finalement à la fin de ce projet nous avons pu obtenir les résultats suivant :
+* contrôle total des LED via DMA
+* Audio fonctionnel (Haut parleur + module mp3)
+* Moteurs XL430 et FS90 tous fonctionnels
+* Modélisations et impressions finalisées
+* PCB fonctionnels
+* code fonctionnel
+
+CI-dessous vous pouvez voir une vidéo avec l'actionnement des 6 moteurs XL430 ainsi que des photos du rendu final de l'aigle:
+
+<video width="640" height="360" controls>
+  <source src="https://example.com/video.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
+
  
 <h1 align="center">Points d'amélioration</h1>
  
