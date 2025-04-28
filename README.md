@@ -1,6 +1,6 @@
 <h1 align="center"> DEA : Dynamic Eagle Animatronic</h1>
 
-<p align="center">An english version of this README can be found below the french one</p>
+<p align="center">An english version of this README file can be found below the french one</p>
 
 <h2 align="center">Préambule</h2>
 Depuis la Grêce antique et le mythe du géant de bronze Talos, les hommes ont toujours cherchés à créer des automates avec les moyens à leur disposition. Les animatroniques sont l'achèvement actuel de ce désir. Ce sont des poupées mécaniques plus ou moins réalistes dont le fonctionnement interne fait intervenir autant la mécanique que l'électronique.
@@ -139,12 +139,10 @@ C'est sans aucun doute la partie la plus compliquée de cette modélisation car 
 <table>
   <tr>
     <td><img src="Hardware/Mecanique/head/photos/head_full.png" alt=" modélisation tête" width="500" height="400"></td>
-    <td><img src="" alt="" width="500" height="400"></td>
   </tr>
 </table>
 
-Le modèle 3D a été repris d'internet... 
-Puis il a du être modifié afin notamment de vider l'intérieur, pour permettre le placement des moteurs, mais aussi de rendre la bouche et les paupières ammovibles.
+Le modèle 3D a été repris d'un modèle existant, puis il a du être modifié afin notamment de vider l'intérieur, pour permettre le placement des moteurs, mais aussi de rendre la bouche et les paupières ammovibles.
 
 <table>
   <tr>
@@ -185,12 +183,12 @@ Au vu du temps disponible, nous avons juste eu le temps de travailler la cage to
 
 <table>
   <tr>
-    <td><img src="" alt="" width="500" height="400"></td>
-    <td><img src="" alt="" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/body/partie droite.png" alt="droite" width="500" height="400"></td>
+    <td><img src="Hardware/Mecanique/body/partie gauche.png" alt="gauche" width="500" height="400"></td>
   </tr>
 </table>
 
-La modélisation du corps à due se faire en quatres parties car nous avions une coontrainte de temps : les impressiosns ne peuvent pas durer plus de 12h et les dimensions des imprimantes 3D qui sont trop petites pour notre modélisation. En effet, les plus grandes imprimantes 3D que nous pssédons sont des Creality K1 Max qui permettent de réaliser des impressions en 300x300x300 or le corps de l'oiseau tend plutôt sur du 350x400x200. De plus, pour l'assemblage de ces quatres parties, au vu du temps mis à disposition pour ce projet nous n'avons pas pu prévoir de moyen d'emboîter et de désemboiter cette partie. Pour que le tout se tienne nous avons donc pris le partit de coller les différentes parties avec un pistolet à colle.
+L'impression du corps à due se faire en quatres parties car nous avions une coontrainte de temps : les impressiosns ne peuvent pas durer plus de 12h et les dimensions des imprimantes 3D qui sont trop petites pour notre modélisation. En effet, les plus grandes imprimantes 3D que nous pssédons sont des Creality K1 Max qui permettent de réaliser des impressions en 300x300x300 or le corps de l'oiseau tend plutôt sur du 350x400x200. De plus, pour l'assemblage de ces quatres parties, au vu du temps mis à disposition pour ce projet nous n'avons pas pu prévoir de moyen d'emboîter et de désemboiter cette partie. Pour que le tout se tienne nous avons donc pris le partit de coller les différentes parties avec un pistolet à colle.
 
 
 <h1 align="center">Mécanique</h1>
